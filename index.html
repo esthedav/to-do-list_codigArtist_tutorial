@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A To Do List made only with HTML, CSS and JS, made by Coding Artist in YouTube">
+    <meta name="author" content="esthedav">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/img/pollomon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>To Do List App With Javascript</title>
+</head>
+<body>
+    <div class="app">
+        <div class="container">
+            <div id="wrapper">
+                <input type="text" placeholder="Task To Be Done">
+                <button type="button" id="add-btn">Add</button>
+            </div>
+            <div id="tasks">
+                <p id="pending-tasks">You have 
+                    <span id="count-value">0</span>
+                task(s) to complete</p>
+            </div>
+        </div>
+        <p id="error">Input cannot be empty!</p>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
